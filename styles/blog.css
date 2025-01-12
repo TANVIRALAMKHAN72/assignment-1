@@ -361,20 +361,11 @@ width: 150px;
     font-weight: 400px;
     color: rgba(14, 14, 14, 0.7);
 }
-.yunus{
-    margin: 0px 60px 0px 60px;
-    padding: 48px 24px 48px 24px;
-    box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.15);
-border-radius: 16px;
-background: rgb(255, 255, 255);
-margin-top: 50px;
-}
-.yunus-qu{
+.yunus-description{
     font-size: 16px;
     font-weight: 400px;
     color: rgba(14, 14, 14, 0.8);
-    margin-bottom: 12px;
+    
 }
 .yunus-name{
     font-size: 20px;
@@ -386,6 +377,24 @@ margin-top: 50px;
     font-weight: 400px;
     color: rgba(14, 14, 14, 0.6);
 }
-.yunus-img{
-    margin-right: 20px;
+.yunus-section{
+    margin: 0px 60px 0px 60px;
+    padding: 48px 24px 48px 24px;
+    background-color: rgb(245, 245, 245);
+    margin-top: 50px;
+    border-radius: 16px;
 }
+
+.quote-box::before{
+    content: url(../assets/quote-bg.png);
+    /* font-size: 40px; */
+    position: absolute;
+    margin-top: -30px;
+    
+
+}
+    
+
+
+
+
