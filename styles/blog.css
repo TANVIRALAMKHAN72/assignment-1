@@ -54,27 +54,28 @@ border: none;
     font-size: 40px;
     font-weight: 700px;
     color: rgb(14, 14, 14);
+    margin-top: 100px;
 }
 
     .container-description{
     font-size: 16px;
     font-weight: 400px;
     color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
 
 }
 .container-info{
     display: flex;
     gap: 24px;
-    padding: 32px;
     justify-content: space-between;
-
-    margin: 0px 24px;
+    margin: 0px 50pxpx 0px 60px;
     
     
 }
 
 .container{
-    padding:  80px 100px 80px 100px ;
+    /* padding:  80px 100px 80px 100px ; */
+    margin: 0px 60px 0px 60px;
 
 
 }
@@ -128,21 +129,21 @@ border: none;
 
 }
 .info-1{
-
+text-align: center;
     box-sizing: border-box;
 border-radius: 16px;
 background: rgba(84, 144, 245, 0.2);
 padding: 32px;
 }
 .info-2{
-
+text-align: center;
     box-sizing: border-box;
 border-radius: 16px;
 background: rgb(198, 228, 214);
 padding: 32px;
 }
 .info-3{
-
+text-align: center;
     box-sizing: border-box;
 border-radius: 16px;
 background: rgb(247, 235, 207);
@@ -153,12 +154,14 @@ padding: 32px;
     /* padding:  80px 100px 80px 100px ; */
     margin: 0px 60px 0px 60px;
     gap: 32px;
+    margin-bottom: 32px;
+    
 }
 .news-title{
     font-size: 40px;
     font-weight: 700px;
     color: rgb(14, 14, 14);
-    gap: 24px;
+    margin-top: 100px;
 }
 .news-description{
     font-size: 16px;
@@ -166,19 +169,47 @@ padding: 32px;
     color: rgba(14, 14, 14, 0.7);
 }
 .satellite{
-    display: flex;
-    justify-content: space-between;
-    gap: 32px;
-    margin: 0px 60px 10px 60px;
-    border-radius: 24px;
-    background-color: aquamarine;
-    padding: 48px;
+   background-color: rgba(240, 223, 223, 0.893);
+padding: 48px;
+border-radius: 24px;
+margin: 0px 60px 0px 60px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 24px;
+gap: 24px;
+align-items: center;
 }
-.satellite-profile{
+
+.satellite-prof{
+    max-width: 100%;
     border-radius: 24px;
-    width: 408px;
-height: 306px;
+    height: auto;
+    margin-bottom: 10px;
+
 }
+
+/* .satellite-prof{
+    border-radius: 24px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+} */
+.satellite-sub-title{
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.satellite-discription{
+    text-align: justify;
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+
+}
+
+    
+
+
 .satellite-container{
 }
 .satellite-title{
@@ -186,15 +217,8 @@ height: 306px;
     font-weight: 700px;
     gap: 12px;
     color: rgba(14, 14, 14, 0.8);
-
-
 }
-.satellite-discription{
-    font-size: 16px;
-    font-weight: 400px;
-    line-height: 24px;
-    color: rgba(14, 14, 14, 0.7);
-}
+
 .satellite-btn{
     color: rgb(255, 255, 255);
     font-size: 16px;
@@ -205,3 +229,81 @@ padding: 11px 20px 11px 20px;
 gap: 48px;
 border: none;
 }
+.container-section{
+    text-align: center;
+    margin: 0px 60px 0px 60px;
+    background-color: rgba(255, 255, 255, 0.873);
+    padding: 48px;
+    border-radius: 24px;
+    background-color: rgba(240, 248, 255, 0.953);
+
+}
+
+
+.container-card{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.card-title{
+    font-size: 40px;
+    font-weight: 700px;
+    color: rgb(14, 14, 14);
+    margin-top: 10px;
+}
+.card-discription{
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.7);
+    
+
+}
+.card{
+    padding: 20px 40px;
+    text-align: center;
+text-decoration: none;
+display: inline-block;
+text-align: center;
+margin: 20px 0px;
+background-color:rgb(255, 255, 255);
+ cursor: pointer;
+color: rgba(14, 14, 14, 0.8);
+border-radius: 16px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.card:hover{
+    background-color: rgb(198, 228, 214);
+}
+.button{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600px;
+    border-radius: 8px;
+background: rgb(0, 106, 80);
+padding: 11px 20px 11px 20px;
+gap: 48px;
+border: none;
+margin-top: 20px;
+}
+.other-amount{
+    box-sizing: border-box;
+    background: rgb(242, 236, 236);
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 20px 40px 20px 40px;
+margin: 0px 32px;
+border-bottom: 1px solid rgba(121, 115, 115, 0.15);
+border: none;
+width: 800px;
+margin-top: 20px;
+text-align: center;
+color: rgba(14, 14, 14, 0.3);
+font-size: 18px;
+font-weight: 400px;
+}
+
