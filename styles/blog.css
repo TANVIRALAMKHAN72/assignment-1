@@ -41,6 +41,7 @@ left: 0px;
 
 }
 .btn-primary{
+    
     border-radius: 8px;
 background: rgb(0, 106, 80);
 margin: 24px 0px;
@@ -150,6 +151,7 @@ background: rgb(247, 235, 207);
 padding: 32px;
 }
 
+
 .news{
     /* padding:  80px 100px 80px 100px ; */
     margin: 0px 60px 0px 60px;
@@ -169,7 +171,7 @@ padding: 32px;
     color: rgba(14, 14, 14, 0.7);
 }
 .satellite{
-   background-color: rgba(240, 223, 223, 0.893);
+   background-color: rgba(251, 246, 246, 0.893);
 padding: 48px;
 border-radius: 24px;
 margin: 0px 60px 0px 60px;
@@ -235,7 +237,8 @@ border: none;
     background-color: rgba(255, 255, 255, 0.873);
     padding: 48px;
     border-radius: 24px;
-    background-color: rgba(240, 248, 255, 0.953);
+    /* background-color: rgba(240, 248, 255, 0.953); */
+    margin-top: 50px;
 
 }
 
@@ -275,11 +278,12 @@ box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
+
 .card:hover{
     background-color: rgb(198, 228, 214);
 }
 .button{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 247, 247);
     font-size: 16px;
     font-weight: 600px;
     border-radius: 8px;
@@ -291,7 +295,7 @@ margin-top: 20px;
 }
 .other-amount{
     box-sizing: border-box;
-    background: rgb(242, 236, 236);
+    background: rgb(248, 248, 248);
 justify-content: flex-start;
 align-items: center;
 gap: 24;
@@ -307,3 +311,81 @@ font-size: 18px;
 font-weight: 400px;
 }
 
+.sub-section{
+    margin: 0px 60px 0px 60px;
+    text-align: center;
+    background-color: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    margin-top: 50px;
+}
+.sub-title{
+    font-size: 40px;
+    font-weight: 700px;
+    color: rgb(14, 14, 14);
+}
+.sub-description{
+    font-size: 16px;
+    font-weight: 400px;
+    color:rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+.sub-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.email{
+    padding: 18px 40px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+background: rgb(255, 255, 255);
+width: 600px;
+font-size: 16px;
+font-weight: 400px;
+color: rgba(14, 14, 14, 0.3);
+border: none;
+}
+.sub-btn{
+    color: rgb(255, 255, 255);
+background: rgb(0, 106, 80);
+padding: 17px 34px 17px 34px;
+border-radius: 0px 8px 8px 0px;
+font-size: 18px;
+font-weight: 600px;
+color: rgb(255, 255, 255);
+border: none;
+width: 150px;
+}
+.spam{
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.yunus{
+    margin: 0px 60px 0px 60px;
+    padding: 48px 24px 48px 24px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+margin-top: 50px;
+}
+.yunus-qu{
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.yunus-name{
+    font-size: 20px;
+    font-weight: 600px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.yunus-title{
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.6);
+}
+.yunus-img{
+    margin-right: 20px;
+}
