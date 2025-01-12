@@ -69,7 +69,7 @@ border: none;
     display: flex;
     gap: 24px;
     justify-content: space-between;
-    margin: 0px 50pxpx 0px 60px;
+    margin: 0px 50px 0px 60px;
     
     
 }
@@ -130,25 +130,31 @@ border: none;
 
 }
 .info-1{
-text-align: center;
+/* text-align: center; */
     box-sizing: border-box;
 border-radius: 16px;
 background: rgba(84, 144, 245, 0.2);
 padding: 32px;
+width: 410px;
+height: 325px;
 }
 .info-2{
-text-align: center;
+/* text-align: center; */
     box-sizing: border-box;
 border-radius: 16px;
 background: rgb(198, 228, 214);
 padding: 32px;
+width: 410px;
+height: 325px;
 }
 .info-3{
-text-align: center;
+/* text-align: center; */
     box-sizing: border-box;
 border-radius: 16px;
 background: rgb(247, 235, 207);
 padding: 32px;
+width: 410px;
+height: 325px;
 }
 
 
